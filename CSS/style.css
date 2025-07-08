@@ -375,8 +375,19 @@ font-size: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    width: 200px;   
+    width: 200px; 
+    position: relative;  
 }
+.exper1 ::after{
+    content: '';
+    position: absolute;
+    background-color: #0E7490;
+    border-radius: 50%;
+    padding: 25px;
+    top: -23px;
+    right: -17px;
+}
+
 .exper1 h2{
     font-size: 40px;
     color: #0E7490;
@@ -384,16 +395,6 @@ font-size: 20px;
 .exper1 p{
     line-height: 30px;
     font-weight: 600;
-    position: relative;
-}
-.exper1 p::after{
-    content: '';
-    position: absolute;
-    background-color: #0E7490;
-    border-radius: 50%;
-    padding: 25px;
-    top: -40px;
-    right: -50px;
 }
 /* best deal section */
 .best-deal{

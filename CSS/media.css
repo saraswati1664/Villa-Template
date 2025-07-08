@@ -554,6 +554,9 @@
     .slider-content h2 {
     font-size: 55px;
     }
+    .featured-section {
+    margin: 60px 0 0px 0;
+    }
     .contain-feature{
         flex-wrap: wrap;
         justify-content: center;
@@ -566,15 +569,18 @@
     left: -36px;
     bottom: -13px;
     }
-    .fea-head {
-    margin-bottom: 55px;
+    .feature1 a img {
+    width: 40px;
     }
+   .fea-head {
+    margin-bottom: 15px;
+}
     .feature2{
         width: 50%;
     }
     .fea-head h2 {
     font-size: 35px;
-    line-height: 66px;
+    line-height: 45px;
     margin-top: 10px;
     }
     .fea-btn {
@@ -583,17 +589,19 @@
     .feature3 {
     width: 60%;
     margin-top: 30px;
-    }  
+    padding-bottom: 0;
+} 
     .feature3 ul li h4 {
     width: 88%;
-    margin-left: 50px;
     }
     .video-section {
     padding: 0px 0px 215px 0px;
+    margin-top: 60px;
     }
+    
     .video-frame {
     left: 76px;
-    top: 310px;
+    top: 251px;
     }
     .video-frame a i {
     font-size: 15px;
@@ -606,8 +614,12 @@
     .all-experience {
     justify-content: space-between;
     }
+    .experience-section {
+    margin-top: 180px;
+    }
+
     .exper {
-    width: 30%;
+    width: 100%;
     }
     .exper1 {
     padding: 15px;
@@ -620,13 +632,9 @@
     line-height: 20px;
     font-weight: 500;
     }
-    .exper1 p::after {
-    padding: 20px;
-    top: -30px;
-    right: -30px;
-    }
     .best-deal {
     padding-bottom: 50px;
+    margin-top: 60px;
     }
     .row1 {
     display: flex;
@@ -688,8 +696,8 @@
     width: 30%;
     }
     .contact-section {
-    padding-bottom: 205px;
-    }
+    padding-bottom: 82px;
+}
     .content-video-text h6 {
     margin-top: 70px;
     }
@@ -752,6 +760,7 @@
     .contact-form form textarea {
     height: auto;
     }
+    
 
 }
 
@@ -834,11 +843,6 @@
    .all-experience {
     gap: 50px;
    }
-   .exper1 p::after {
-    padding: 20px;
-    top: -45px;
-    right: -50px;
-   }
    .best-deal {
     margin-top: 100px;
    }
@@ -902,8 +906,38 @@
 /* 550 mobile */
 
 @media (max-width: 550px){
-      .feature1 {
-    width: 60%;
+    .container {
+    width: 90%;
+    margin: auto;
+}
+    .slide-1 {
+    padding: 100px 10% 100px 4%;
+    }
+    .featured-section {
+    margin: 70px 0 0px 0;
+    }
+    .feature1 {
+    width: 100%;
+    justify-content: center;
+    }  
+    .contain-1-img {
+    width: 90%;
+    }
+    .feature1 a {
+    padding: 18px 21px;
+    left: -34px;
+    bottom: -40px;
+    }
+    .feature2 {
+    padding-left: 0;
+    padding-right: 0;
+    }
+    .feature3 {
+    padding-bottom: 0;
+    width: 90%;
+    }
+    .feature3 ul li {
+    gap: 40px;
     }
     .video-section {
     padding: 0px 0px 90px 0px;
@@ -923,7 +957,29 @@
     }
     .experience-section {
     margin-top: 160px;
-}
+    }
+    .best-deal {
+    margin-top: 60px;
+    }
+    .row1 {
+    padding-left: 0;
+    }
+    .property-section {
+    margin-top: 60px;
+    }
+    .card-contain {
+    gap: 5px;
+    }
+    .card {
+    width: 75%;
+    }
+    .contact-section {
+    margin-top: 60px;
+    padding-bottom: 150px;
+    }
+    .map-section {
+    margin-top: 25px;
+    }
     .call {
     padding: 20px;
     align-items: center;
