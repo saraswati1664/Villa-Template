@@ -943,8 +943,16 @@
     padding: 0px 0px 90px 0px;
     }
     .video-frame {
-    left: 25px;
+    width: 100%;
+    left: 0px;
     top: 173px;
+    display: flex;
+    justify-content: center;
+    }
+    .video-frame img {
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
     }
     .content-video-text h2 {
     font-size: 30px;
