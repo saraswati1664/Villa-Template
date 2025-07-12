@@ -79,13 +79,13 @@ Fork this repository.
 Clone it locally:
 
 bash
-git clone https://github.com/your-username/real-estate-website.git  
+git clone https://github.com/saraswati1664/Villa-Template
 Open index.html in a browser.
 
 Deploy to GitHub Pages via repo settings.
 
 ### Option 2: One-Click Netlify Deployment
-https://www.netlify.com/img/deploy/button.svg
+https://villa-template.netlify.app/
 
 ## 🌟 Why Choose This Template?
 
