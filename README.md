@@ -74,18 +74,12 @@ real-estate-website/
 
 ## 🚀 Deployment
 ### Option 1: GitHub Pages
-Fork this repository.
+1. Fork this repository
+2. Go to Settings > Pages
+3. Select 'main' branch and '/root' folder
 
-Clone it locally:
-
-bash
-git clone https://github.com/saraswati1664/Villa-Template
-Open index.html in a browser.
-
-Deploy to GitHub Pages via repo settings.
-
-### Option 2: One-Click Netlify Deployment
-https://villa-template.netlify.app/
+### Option 2: Netlify Deployment
+https://app.netlify.com/start/deploy?repository=https://github.com/your-repo/villa-realestate
 
 ## 🌟 Why Choose This Template?
 
