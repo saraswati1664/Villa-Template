@@ -134,6 +134,16 @@ font-size: 20px;
     cursor: pointer;
     color: #333;
 }
+.mobile-menu button{
+    border: none;
+    background: transparent;
+}
+.mobile-menu button i{
+    font-size: 28px;
+}
+.crose{
+        display:none;
+    }
 /* slider section */
 .slider-sec{
  background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg");
@@ -667,7 +677,9 @@ font-size: 20px;
     color: #aaaaaa;
     font-weight: 400;
 }
-
+.mail {
+    padding: 30px;
+}
 .contact-form{
     width: 50%;
     /* background-color: white; */

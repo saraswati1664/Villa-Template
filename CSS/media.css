@@ -532,9 +532,35 @@
 }
 } 
 
-/* 767 tablets */
+/* 976 */
 
-@media (max-width: 768px){
+@media(max-width:977px){
+    .nav {
+    padding: 30px 30px;
+    }
+    .map-section .container {
+    width: 86%;
+    margin: auto;
+    }
+    .call {
+    align-items: center;
+    }
+    .call i {
+    font-size: 40px;
+    }
+    .headcall h6 {
+    font-size: 13px;
+    }
+    .map {
+    width: 54%;
+    }
+    .footer-section {
+    bottom: 0px;
+    }
+}
+/* 792 tablets */
+
+@media (max-width: 792px){
     .top-sec-1{
         display: none;
     }
@@ -764,11 +790,63 @@
 
 }
 
+/* 704px */
+@media (max-width:705px){
+    .contact-section {
+        padding-bottom: 200px;
+    }
+    .map {
+    width: 48%;
+}
+    .footer-content p {
+    font-size: 15px;
+    line-height: 70px;
+    }
+}
+/* 666 */
+
+@media (max-width:667px){
+    .logo {
+    font-size: 25px;
+    }
+    .nav-option ul li a {
+    font-size: 12px;
+    }
+    .footer-content p {
+    font-size: 13px;
+    line-height: 60px;
+    }
+}
+
 /* 576 tablets */
 
 @media (max-width: 577px){
     .mobile-menu{
+        display: inline-block;
+        position: relative;   
+    }
+    .drpdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: rgb( 0 0 0/0.24) 0 0 15px;
+    right: -18px;
+    padding: 20px;
+}
+    .drpdown-content ul li a{
+        font-size: 15px;
+         display: inline-block;
+        width: 100%;
+    }
+    .mobile-menu:focus-within .drpdown-content{
         display: block;
+    }
+    .mobile-menu:focus-within .burger i{
+        display: none;
+    }
+    .mobile-menu:focus-within .crose {
+        display:inline-block;
     }
     .nav-option{
         display: none;
@@ -877,6 +955,7 @@
    }
    .contact-section {
     margin-bottom: 848px;
+    padding-bottom: 200px;
    }
    .map {
     width: 100%;
@@ -984,6 +1063,8 @@
     .contact-section {
     margin-top: 60px;
     padding-bottom: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
     .map-section {
     margin-top: 25px;
@@ -1003,6 +1084,9 @@
     .call i {
     font-size: 38px;
     margin-right: 20px;
+    }
+    .mail {
+    padding: 24px;
     }
     .footer-content p {
     line-height: 40px;
