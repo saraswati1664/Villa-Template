@@ -538,6 +538,85 @@
     .nav {
     padding: 30px 30px;
     }
+    .video-frame {
+    left: 92px;
+    }
+    .experience-section {
+    margin-top: 165px;
+    }
+    .all-experience {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    }
+    .exper {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    }
+    .best-deal {
+    margin-top: 95px;
+    background-color: #fafafa;
+    padding-bottom: 70px;
+    }
+    .row1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 45px;
+    }
+    .row1-heads {
+    width: 100%;
+    }
+    .row1-head {
+    width: 50%;
+    }
+    .row1-buttons {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    }
+    .table-contain {
+    width: 50%;
+    }
+    .info-table {
+    width: 80%;
+    padding: 20px;
+    }
+    .info-table ul li {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    }
+    .contain-feature {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 40px;
+    }
+    .deal-image {
+    padding: 0px; 
+    width: 45%;
+    display: flex;
+    align-items: center;
+    }
+    .feature1 a {
+    left: -40px;
+    bottom: -30px;
+    }
+    .feature3 {
+    width: 60%;
+    }
+    .parahraph-contain {
+    width: 100%;
+    }
+    .property-section {
+    margin-top: 95px;
+    }
+    .card {
+    width: 40%;
+    }
     .map-section .container {
     width: 86%;
     margin: auto;
