@@ -499,10 +499,19 @@
 }
 .call {
     padding: 20px;
+    align-items: center;
+}
+.headcall h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
 }
 .contact-form {
     width: 40%;
     
+}
+.contact-form form textarea {
+    height: 135px;
 }
 .feature3 ul li {
     font-size: 18px;
@@ -868,6 +877,24 @@
     
 
 }
+/* 767 */
+
+@media(max-width:768px){
+    .row1 {
+    gap: 0px; 
+}
+.row1-heads {
+    width: 50%;
+}
+    .row1-head {
+    width: 100%;
+}
+.row1-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+}
 
 /* 704px */
 @media (max-width:705px){
@@ -1007,7 +1034,15 @@
     padding-left: 30px;
    }
    .row1-heads {
-    width: 49%;
+    width: 100%;
+   }
+   .row1-head {
+    width: 50%;
+   }
+   .row1-buttons {
+    flex-wrap: wrap;
+    justify-content: LEFT;
+    width: 100%;
    }
    .h2-style {
     font-size: 30px;
@@ -1129,6 +1164,18 @@
     }
     .row1 {
     padding-left: 0;
+    gap:0;
+    }
+    .row1-heads {
+    width: 50%;
+    }
+    .row1-head {
+    width: 100%;
+    }
+    .row1-buttons {
+    flex-wrap: wrap;
+    justify-content: CENTER;
+    width: 50%;
     }
     .property-section {
     margin-top: 60px;
